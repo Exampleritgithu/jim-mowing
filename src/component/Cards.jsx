@@ -45,9 +45,9 @@ const Card = ({ image, title, description, tel }) => (
   <div className="max-w-sm mx-auto rounded overflow-hidden shadow-lg bg-white">
     <div className="relative">
       <img src={image} alt={title} className="w-full h-64 object-cover" />
-      <div className="w-full bg-black/80 py-3 text-center hover:bg-blue-700 transition">
-        <h2 className="text-white text-2xl">{title}</h2>
-      </div>
+      <div className="w-full bg-black/90 opacity-80 py-3 text-center hover:bg-blue-700 transition">
+  <h2 className="text-white text-2xl">{title}</h2>
+</div>
     </div>
     <div className="p-4">
       <p className="text-gray-800 text-sm mb-4">

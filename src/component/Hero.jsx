@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         <div className="  bg-white p-2 py-2 flex flex-col justify-center items-center mx-auto mt-10 w-64  ">
           <img src="Product.webp" alt="" className="w-56 " />
-          <p className="w-65 text-sm">2023 Product Review best Mowing and gardening company winner.</p>
+          <p className="w-65 text-sm p-2 ">2023 Product Review best Mowing and gardening company winner.</p>
         </div>
       </div>
     </main>
